@@ -1,0 +1,68 @@
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* ----------- */
+
+.page_MainBanner{
+    width: 100%;
+    height: 833px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 70px;
+    background-color: brown;
+    background-image: url('/public/mainPageBanner\ 3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_description{
+    width: 671px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around   ;
+    /* border: 2px solid black; */
+}
+
+.description--title{
+    width: 100%;
+    height: 88px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96.88px;
+    /* border: 2px solid red; */
+}
+
+.description--info{
+    width: 502px;
+    height: 73px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    line-height: 29.23px;
+    font-weight: 324;
+    /* border: 2px solid greenyellow; */
+}
+
+.description--shopButton{
+    width: 145px;
+    height: 51px;
+    /* border: 2px solid seagreen; */
+}
+
+.shopNow{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid rgba(225, 219, 215, 1);
+}
