@@ -2,6 +2,7 @@ header{
     max-width: 1580px;
     height: 83px;
     display: flex;
+    border-bottom: 1px solid black;
     /* border: 2px solid blue; */
 }
 
@@ -38,7 +39,15 @@ header{
     font-weight: 400;
     font-family: karla;
     cursor: pointer;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    background-size: 0 100%;
+    background-image: linear-gradient(to right, #feffff, #eee8aa);
     /* border: 2px solid red; */
+}
+
+.navigation--jewerly:hover{
+    background-size: 100% 100%; 
 }
 
 .navigation--newReleases{
@@ -52,7 +61,15 @@ header{
     font-weight: 400;
     font-family: karla;
     cursor: pointer;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    background-size: 0 100%;
+    background-image: linear-gradient(to right, #feffff, #eee8aa);
     /* border: 2px solid red; */
+}
+
+.navigation--newReleases:hover{
+    background-size: 100% 100%;
 }
 
 .navigation--gifts{
@@ -66,7 +83,15 @@ header{
     font-weight: 400;
     font-family: karla;
     cursor: pointer;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    background-size: 0 100%;
+    background-image: linear-gradient(to right, #feffff, #eee8aa);
     /* border: 2px solid red; */
+}
+
+.navigation--gifts:hover{
+    background-size: 100% 100%; 
 }
 
 .main-logo-container{
