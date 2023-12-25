@@ -11,33 +11,33 @@ function ProductCategories(){
                     <p>Indulge in what we offer.</p>
                 </div>
             </div>
-            <div className="products">
-                <div className='product'>
-                    <div className='product--image necklace'></div>
+            <div className="products_container">
+                <div className='products_container--product'>
+                    <div className='product--image product--necklace'></div>
                     <div className='product--name'>
                         <p>NeckLaces</p>
                     </div>
                 </div>
-                <div className='product'>
-                    <div className='product--image earrings'></div>
+                <div className='products_container--product'>
+                    <div className='product--image product--earrings'></div>
                     <div className='product--name'>
                         <p>Earrings</p>
                     </div>
                 </div>
-                <div className='product'>
-                    <div className='product--image bracelets'></div>
+                <div className='products_container--product'>
+                    <div className='product--image product--bracelets'></div>
                     <div className='product--name'>
                         <p>Braceletes</p>
                     </div>
                 </div>
-                <div className='product'>
-                    <div className='product--image rings'></div>
+                <div className='products_container--product'>
+                    <div className='product--image product--rings'></div>
                     <div className='product--name'>
                         <p>Rings</p>
                     </div>
                 </div>
-                <div className='product'>
-                    <div className='product--image charms'></div>
+                <div className='products_container--product'>
+                    <div className='product--image product--charms'></div>
                     <div className='product--name'>
                         <p>Charms</p>
                     </div>
