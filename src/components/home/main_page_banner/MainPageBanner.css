@@ -14,7 +14,7 @@
     align-items: center;
     padding-left: 70px;
     background-color: brown;
-    background-image: url('/public/mainPageBanner\ 3.jpg');
+    background-image: url('/src/assets/images/mainPageBanner\ 3.jpg');
     background-position: center;
     background-size: cover;
 }

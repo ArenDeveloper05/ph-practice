@@ -45,16 +45,16 @@
     /* border: 1px solid black; */
 }
 
-.products{
-    width: 100%;
+.products_container{
+    max-width: 1300px;
     height: 80%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    margin: auto;
     /* background-color: black; */
 }
 
-.product{
+.products_container--product{
     width: 249px;
     height: 337px;
     cursor: pointer;
@@ -62,7 +62,7 @@
     /* border: 2px solid aqua; */
 }
 
-.product:hover{
+.products_container--product:hover{
     transform: scale(1.1);
 }
 
@@ -71,36 +71,36 @@
     height: 276px;
 }
 
-.necklace{
-    background-image: url('/public/product1.jpg');
+.product--necklace{
+    background-image: url('/src/assets/images/product1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.earrings{
-    background-image: url('/public/earrings.jpg');
+.product--earrings{
+    background-image: url('/src/assets/images/earrings.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.bracelets{
-    background-image: url('/public/bracelets.jpg');
+.product--bracelets{
+    background-image: url('/src/assets/images/bracelets.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.rings{
-    background-image: url('/public/rings.jpg');
+.product--rings{
+    background-image: url('/src/assets/images/rings.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.charms{
-    background-image: url('/public/charms.jpg');
+.product--charms{
+    background-image: url('/src/assets/images/charms.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

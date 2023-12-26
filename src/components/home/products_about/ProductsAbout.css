@@ -8,10 +8,10 @@
 .mainContainer--left_side{
     width: 558px;
     height: 100%;
-    background-image: url('/public/Rectangle\ 25.jpg');
+    background-image: url('/src/assets/images/Rectangle\ 25.jpg');
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;   
+    background-size: cover; 
 }
 
 .mainContainer--right_side{
